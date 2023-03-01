@@ -25,7 +25,8 @@ class Main(Ui_MainWindow, QMainWindow):
         self.y = -1
         self.k = 0
         self.setMouseTracking(True)
-        self.colors = ['Yellow']
+        self.colors = ['Red', 'Orange', 'Yellow', 'Green', 'Cyan',
+                       'Blue', 'Magenta', 'Purple', 'Brown', 'Black']
 
     def mousePressEvent(self, event):
         self.x = event.x()
